@@ -4,22 +4,32 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: cake;
+    src: url(brownies\ cake.ttf);
+}
+
 header {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: "Raleway";
+    font-family: "cake";
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
 h1 {
-    font-size: 3vh;
+    font-size: 20vh;
     line-height: 33px;
-    padding-bottom: 2vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+h4 {
+    font-size: 5vh;
 }
 
 .titulo {
@@ -28,10 +38,14 @@ h1 {
 }
 
 p {
-    font-weight: 500;
-    font-size: 1.5vh;
+    font-weight: 50vh;
+    font-size: 5vh;
     letter-spacing: 0.07em;
     color: #B4B4B4;
+}
+
+nav {  
+    
 }
 
 .slider {
